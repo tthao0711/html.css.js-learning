@@ -1,0 +1,33 @@
+#container{
+    font-family: Source Sans Pro;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(350, 79%, 75%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+}
+
+button:hover{
+    background-color: hsl(350, 79%, 85%);
+}
+
+button:active{
+    background-color: hsl(350, 79%, 95%);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
