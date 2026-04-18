@@ -1,7 +1,14 @@
-function combineStrings(...strings){
-    return strings.join(" ");
+
+
+
+let timeoutId;
+
+function startTimer(){
+    timeoutId = setTimeout(() => window.alert("Hello"), 3000);
+    console.log("STARTER");
 }
 
-const fullName = combineStrings("Mr.", "Spongebob", "Squarepants", "III");
-
-console.log(fullName);
+function clearTimer(){
+    clearTimeout(timeoutId);
+    console.log("CLEARED");
+}
