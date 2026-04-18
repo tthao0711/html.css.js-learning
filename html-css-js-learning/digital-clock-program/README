@@ -1,0 +1,44 @@
+## Digital Clock
+
+A simple digital clock built with HTML, CSS, and JavaScript for practice.
+
+## Overview
+
+This project displays the current time in a digital clock format and updates automatically in real time using JavaScript.
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+
+The purpose of this project was to practice:
+
+- Structuring a basic web page with HTML
+- Styling the interface with CSS
+- Using JavaScript to work with time and update the DOM dynamically
+
+## Features
+
+- Displays the current time
+- Updates every second
+- Simple and clean user interface
+
+## What I Practiced
+
+Through this project, I practiced:
+
+- JavaScript `Date` object
+- DOM selection and content updates
+- Real-time updates with `setInterval()`
+- Basic front-end styling and layout
+
+## Notes
+
+This was a small practice project made to strengthen my understanding of front-end basics.
+
+## Author
+
+Thao
