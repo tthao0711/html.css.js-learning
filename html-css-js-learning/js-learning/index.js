@@ -1,14 +1,16 @@
 
 
 
-let timeoutId;
 
-function startTimer(){
-    timeoutId = setTimeout(() => window.alert("Hello"), 3000);
-    console.log("STARTER");
+
+try{
+    const dividend = window.prompt("Enter a dividend:");
+    const divisor = window.prompt("Enter a divisor:");
+
+    const result = dividend / divisor;
+    console.log(result);
 }
 
-function clearTimer(){
-    clearTimeout(timeoutId);
-    console.log("CLEARED");
+catch(error){
+    console.log(error);
 }
